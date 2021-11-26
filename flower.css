@@ -247,6 +247,7 @@ flex-direction: row-reverse;
   height: 100vw;
   background-image: url(image/bg.jpg);
   background-position: center;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
