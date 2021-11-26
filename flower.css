@@ -120,6 +120,7 @@ background: black;
 }
 
 .top-img-box img{
+  overflow-x:hidden;
 width:calc(100%/3);
 height: 750px;
 flex-shrink: 0;
