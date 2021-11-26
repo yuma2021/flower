@@ -1,6 +1,6 @@
 
 $(function () {
-  $(window).scroll(function () {
+    $(window).on('load scroll resize',function () {
     let scroll = $(window).scrollTop();
     mv_scale(scroll);
   });
