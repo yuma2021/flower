@@ -113,6 +113,7 @@ position:absolute;
 top:0px;
 width:100%;
   margin: auto;
+  overflow: hidden;
   display:flex;
 align-items: center;
 justify-content: center;
@@ -124,6 +125,7 @@ background: black;
 width:calc(100%/3);
 height: 750px;
 flex-shrink: 0;
+overflow: hidden;
 object-fit: cover;
 object-position:center;
 }
@@ -248,7 +250,7 @@ flex-direction: row-reverse;
   height: 100vw;
   background-image: url(image/bg.jpg);
   background-position: center;
-    background-repeat: no-repeat;
+  background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
@@ -304,6 +306,7 @@ font-weight: normal;
     position:absolute;
     width:100%;
     margin: auto;
+    overflow: hidden;
     display:flex;
   align-items: center;
   justify-content: center;
@@ -314,6 +317,7 @@ font-weight: normal;
   width:(100%/3);
   height:750px;
   flex-shrink: 0;
+  overflow: hidden;
   object-fit: cover;
   object-position:center;
   }
@@ -368,6 +372,7 @@ font-size: 26px;
     position:absolute;
     width:100%;
     margin: auto;
+    overflow: hidden;
     display:flex;
     flex-shrink: 0;
   align-items: center;
@@ -377,8 +382,8 @@ font-size: 26px;
   .top-img-box img{
     width:80%;
     height:750px;
+    overflow: hidden;
     object-fit: cover;
     object-position:center;
     }
 }
-
