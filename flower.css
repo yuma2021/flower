@@ -380,9 +380,8 @@ font-size: 26px;
   }
 
   .top-img-box img{
-    width:(100%/3);
+  width:(100%/3);
     height:750px;
-    overflow: hidden;
     object-fit: cover;
     object-position:center;
     }
