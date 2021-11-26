@@ -212,7 +212,7 @@ transform: translate(0, 0);
 }
 
 .GALLERY{
-  padding-bottom: 50vh;
+  padding-bottom: 10vh;
 }
 
 .GALLERY h3{
@@ -277,7 +277,6 @@ flex-direction: row-reverse;
 }
 
 .home span{
-
   font-size: 16px;
 }
 
@@ -285,13 +284,15 @@ flex-direction: row-reverse;
   margin-top: 10px;
 }
 
-.g-nav{
+.google-nav{
   padding: 20px 40px;
   width:max-content;
   border: solid 1px white;
 }
 
-.g-nav a{
+.google-nav a{
+  text-decoration: none;
+  color: white;
 font-size: 14px;
 font-weight: normal;
 }
@@ -378,3 +379,4 @@ font-size: 26px;
     object-position:center;
     }
 }
+
