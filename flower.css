@@ -301,6 +301,123 @@ font-size: 14px;
 font-weight: normal;
 }
 
+.CONTACT{
+  padding: 50px 0px 150px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: black;
+  border-bottom: solid 2px white;
+}
+
+.CONTACT h3{
+  text-decoration: underline;
+  margin-top: 20px;
+    font-size: 45px;
+  font-family: serif;
+  letter-spacing: 1px;
+  color:white;
+  text-align: center;
+}
+
+.CONTACT article{
+  position: relative;
+  width:30%;
+  margin: 10px;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px white;
+}
+
+.CONTACT article:before{
+  position: absolute;
+  top:83%;
+  right:-17%;
+content:"";
+width:100px;
+height: 20px;
+border-right: solid 1px white;
+transform:rotate(-45deg);
+transition: all .5s;
+}
+
+.CONTACT article:after{
+  position: absolute;
+  top:50%;
+  right: -15%;
+content:"";
+width:100px;
+border-top: solid 1px white;
+transition: all .5s;
+}
+
+.CONTACT article:hover{
+  border: solid 1px #a2a4a5;
+}
+
+.CONTACT article:hover:before{
+  border-right: solid 1px #a2a4a5;
+  transform: translateX(15%)rotate(-45deg);
+}
+
+.CONTACT article:hover:after{
+  border-top: solid 1px #a2a4a5;
+    transform: translateX(15%);
+}
+
+.CONTACT article a{
+color:white;
+}
+
+.footer{
+  width:100%;
+  padding: 50px 0px;
+  background: black;
+}
+
+.footer p{
+  color:white;
+}
+
+.media{
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+.SNS{
+  width:50%;
+  display: flex;
+  justify-content: start;
+}
+
+.SNS li{
+  margin: 10px;
+}
+
+.SNS a{
+  padding: 10px;
+}
+
+.person{
+    width:50%;
+  display: flex;
+  justify-content:end;
+}
+
+.person li{
+
+  margin: 10px;
+  color: white;
+}
+
+
 @media screen and (max-width:900px){
   .top-img-box{
     position:absolute;
@@ -364,6 +481,22 @@ font-size: 28px;
 
   .ACCESS h4{
 font-size: 26px;
+  }
+
+  .CONTACT h3{
+    font-size: 28px;
+  }
+
+  .CONTACT article{
+    width:95%;
+  }
+
+  .CONTACT article:before{
+    display: none;
+  }
+
+  .CONTACT article:after{
+display: none;
   }
 }
 
