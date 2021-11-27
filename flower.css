@@ -240,7 +240,7 @@ margin-top: 40px;
 flex-direction: row-reverse;
 }
 
-/*
+
 .ACCESS{
   display: flex;
   flex-direction: column;
@@ -251,7 +251,7 @@ flex-direction: row-reverse;
   background-image: url(image/bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
-}*/
+}
 
 .ACCESS:before{
  content:"";
