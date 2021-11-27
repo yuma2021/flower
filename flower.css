@@ -266,7 +266,11 @@ flex-direction: row-reverse;
   background-image: url(image/bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  
+}
+
+.ACCESS:after{
+ content:"";
+background:black;
 }
 
 .ACCESS h3{
