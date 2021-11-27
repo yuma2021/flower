@@ -260,18 +260,12 @@ flex-direction: row-reverse;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:100%;
+  width:95%;
   height:auto;
+  margin:auto;
   background-image: url(image/bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.ACCESS:after{
- content:"";
-background:black;
-  width:100%;
-  height:auto;
 }
 
 .ACCESS h3{
