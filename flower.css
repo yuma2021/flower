@@ -241,18 +241,6 @@ flex-direction: row-reverse;
 }
 
 
-.ACCESS{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width:100%;
-  height: 100vw;
-  background-image: url(image/bg.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 .ACCESS:before{
  content:"";
   position:fixed;
