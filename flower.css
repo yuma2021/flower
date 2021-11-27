@@ -555,4 +555,8 @@ justify-content: start;
     .person li{
 transform: translateX(-50px);
     }
+  
+  .ACCESS{
+    background-attachment:none;
+    position:fixed;
 }
