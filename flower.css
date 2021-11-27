@@ -250,7 +250,7 @@ flex-direction: row-reverse;
   background-image: url(image/bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .ACCESS h3{
