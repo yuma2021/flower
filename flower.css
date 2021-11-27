@@ -326,7 +326,7 @@ font-weight: normal;
   position: relative;
   width:30%;
   margin: 10px;
-  padding: 20px 0px;
+  padding: 20px 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -336,11 +336,12 @@ font-weight: normal;
 .CONTACT article:before{
   position: absolute;
   top:83%;
-  right:-17%;
+  right:-60px;
 content:"";
 width:100px;
 height: 20px;
 border-right: solid 1px white;
+
 transform:rotate(-45deg);
 transition: all .5s;
 }
@@ -348,7 +349,7 @@ transition: all .5s;
 .CONTACT article:after{
   position: absolute;
   top:50%;
-  right: -15%;
+  right: -52px;
 content:"";
 width:100px;
 border-top: solid 1px white;
@@ -379,41 +380,60 @@ color:white;
   background: black;
 }
 
-.footer p{
+.footer-home{
+  width:95%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: auto;
+}
+
+.footer-home p{
   color:white;
+  font-size: 11px;
+  line-height: 1.5em;
 }
 
 .media{
-  width: 100%;
-  position: relative;
+  width: 95%;
   display: flex;
+  justify-content: start;
   align-items: center;
   margin: auto;
 }
 
 .SNS{
-  width:50%;
-  display: flex;
-  justify-content: start;
+  width:100%;
 }
 
 .SNS li{
-  margin: 10px;
+  float: left;
+  transform: translateX(-40px);
+  margin-right: 10px;
 }
 
 .SNS a{
-  padding: 10px;
+  text-decoration: none;
+  padding: 10px 0px;
+  color:white;
+  font-size: 11px;
 }
 
 .person{
-    width:50%;
-  display: flex;
+    width:100%;
+    display: flex;
   justify-content:end;
 }
 
 .person li{
-
+font-size: 11px;
   margin: 10px;
+  color: white;
+}
+
+.person a{
+  text-decoration: none;
+font-size: 11px;
   color: white;
 }
 
@@ -488,7 +508,8 @@ font-size: 26px;
   }
 
   .CONTACT article{
-    width:95%;
+    width:90%;
+    padding: 20px 0px;
   }
 
   .CONTACT article:before{
@@ -517,5 +538,22 @@ display: none;
     height:750px;
     object-fit: cover;
     object-position:center;
+    }
+
+    .media{
+      display: flex;
+      flex-direction: column;
+      justify-content:center;
+      align-items: start;
+    }
+
+.person{
+  width: 90%;
+display: flex;
+justify-content: start;
+    }
+
+    .person li{
+transform: translateX(-50px);
     }
 }
