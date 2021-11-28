@@ -250,7 +250,7 @@ flex-direction: row-reverse;
   height: 100vw;
 }
 
-
+/*
 .ACCESS:before{
  content:"";
   position:fixed;
@@ -263,6 +263,7 @@ flex-direction: row-reverse;
   background-position: center;
   background-repeat: no-repeat;
 }
+*/
 
 .ACCESS h3{
   text-decoration: underline;
@@ -382,6 +383,7 @@ transition: all .5s;
 }
 
 .CONTACT article a{
+  text-decoration:none;
 color:white;
 }
 
@@ -411,6 +413,10 @@ color:white;
   justify-content: start;
   align-items: center;
   margin: auto;
+}
+
+.media a{
+text-decoration:none;
 }
 
 .SNS{
