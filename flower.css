@@ -291,6 +291,11 @@ flex-direction: row-reverse;
   text-align: center;
 }
 
+.ACCESS a{
+  text-decoration:none;
+  color:white;
+}
+
 .home span{
   font-size: 16px;
 }
