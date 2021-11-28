@@ -557,7 +557,7 @@ display: none;
   }
 
   .top-img-box img{
-  width:(100%/3);
+  width:34%;
     height:750px;
     object-fit: cover;
     object-position:center;
