@@ -249,6 +249,7 @@ flex-direction: row-reverse;
   height: 100vw;
 }
 
+/*
 .ACCESS:before{
  content:"";
   position:fixed;
@@ -261,6 +262,7 @@ flex-direction: row-reverse;
   background-position: center;
   background-repeat: no-repeat;
 }
+*/
 
 .ACCESS h3{
   text-decoration: underline;
