@@ -2,6 +2,7 @@ body{
 width:100%;
     margin:0;
     overflow-x:hidden!important;
+    background:black;
 }
 
 /*ヘッダー*/
@@ -431,7 +432,7 @@ text-decoration:none;
 
 .SNS li{
   float: left;
-  
+  transform: translateX(-40px);
   margin-right: 10px;
 }
 
@@ -576,7 +577,7 @@ justify-content: start;
     }
 
     .person li{
-/*transform: translateX(-50px);*/
+transform: translateX(-50px);
     }
   
 }
