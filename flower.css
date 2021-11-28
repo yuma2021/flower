@@ -249,7 +249,7 @@ flex-direction: row-reverse;
   height: 100vw;
 }
 
-/*
+
 .ACCESS:before{
  content:"";
   position:fixed;
@@ -258,11 +258,12 @@ flex-direction: row-reverse;
   z-index:-1;
   width:100%;
   height:100vw;
+    overflow:hidden;
   background-image: url(image/bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
 }
-*/
+
 
 .ACCESS h3{
   text-decoration: underline;
@@ -549,8 +550,8 @@ display: none;
     width:100%;
     margin: auto;
     display:flex;
-    /*flex-shrink: 0;
-      overflow: hidden;*/
+    flex-shrink: 0;
+      overflow: hidden;
   align-items: center;
   justify-content: center;
   }
