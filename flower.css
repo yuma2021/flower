@@ -407,16 +407,17 @@ color:white;
   line-height: 1.5em;
 }
 
+.footer-home a{
+  color:white;
+text-decoration:none;
+}
+
 .media{
   width: 95%;
   display: flex;
   justify-content: start;
   align-items: center;
   margin: auto;
-}
-
-.media a{
-text-decoration:none;
 }
 
 .SNS{
