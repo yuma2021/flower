@@ -564,10 +564,12 @@ display: none;
     }
 
     .media{
+        width:50%;
       display: flex;
       flex-direction: column;
       justify-content:center;
       align-items: start;
+        transform: translateX(-130px);
     }
 
 .person{
@@ -577,7 +579,7 @@ justify-content: start;
     }
 
     .person li{
-transform: translateX(-50px);
+
     }
 
 }
