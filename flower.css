@@ -569,7 +569,7 @@ display: none;
       flex-direction: column;
       justify-content:center;
       align-items: start;
-        transform: translateX(-45px);
+        transform: translateX(-50px);
     }
 
 .person{
