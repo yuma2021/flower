@@ -250,21 +250,22 @@ flex-direction: row-reverse;
    width:100%;
 	height: 100vw;
 	padding:100px 0px;
-	background: none;
+	 background-image: url(image/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .ACCESS.fixed{
 	position:fixed;
 	top:0;
+	left:0;
 	display: block;
  content:"";
 	 width:100%;
 	height: 100vw;
 	z-index: -1;
- background-image: url(image/bg.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+background: none;
 }	
 
 .ACCESS h3{
