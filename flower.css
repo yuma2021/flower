@@ -253,7 +253,9 @@ flex-direction: row-reverse;
 	background: none;
 }
 
-.ACCESS:before{
+.ACCESS.fixed{
+	position:fixed;
+	top:0;
 	display: block;
  content:"";
 	 width:100%;
