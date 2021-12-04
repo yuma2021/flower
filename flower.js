@@ -65,7 +65,7 @@ $(document).on('load scroll resize',function (){
   if (scrollStart <= distance){
     $('.start').addClass('fixed');
   }else if(scrollStart >= distance){
-    $('.star').removeClass('fixed');
+    $('.start').removeClass('fixed');
   }
 
   if (scrollEnd <= distance + windowHeight){
