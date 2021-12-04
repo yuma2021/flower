@@ -330,6 +330,7 @@ font-weight: normal;
 }
 
 .CONTACT{
+	 z-index: 100;
   padding: 50px 0px 150px 0px;
   display: flex;
   flex-direction: column;
@@ -341,6 +342,7 @@ font-weight: normal;
 }
 
 .CONTACT h3{
+	 z-index: 100;
   text-decoration: underline;
   margin-top: 20px;
     font-size: 45px;
@@ -351,6 +353,7 @@ font-weight: normal;
 }
 
 .CONTACT article{
+	 z-index: 100;
   position: relative;
   width:30%;
   margin: 10px;
@@ -362,6 +365,7 @@ font-weight: normal;
 }
 
 .CONTACT article:before{
+	 z-index: 100;
   position: absolute;
   top:83%;
   right:-60px;
@@ -369,12 +373,12 @@ content:"";
 width:100px;
 height: 20px;
 border-right: solid 1px white;
-
 transform:rotate(-45deg);
 transition: all .5s;
 }
 
 .CONTACT article:after{
+	 z-index: 100;
   position: absolute;
   top:50%;
   right: -52px;
@@ -399,17 +403,20 @@ transition: all .5s;
 }
 
 .CONTACT article a{
+	 z-index: 100;
   text-decoration:none;
 color:white;
 }
 
 .footer{
+	 z-index: 100;
   width:100%;
   padding: 50px 0px;
   background: black;
 }
 
 .footer-home{
+	 z-index: 100;
   width:95%;
   display: flex;
   justify-content: start;
@@ -418,17 +425,20 @@ color:white;
 }
 
 .footer-home p{
+	 z-index: 100;
   color:white;
   font-size: 11px;
   line-height: 1.5em;
 }
 
 .footer-home a{
+	 z-index: 100;
   color:white;
 text-decoration:none;
 }
 
 .media{
+	 z-index: 100;
   width: 95%;
   display: flex;
   justify-content: start;
@@ -437,16 +447,19 @@ text-decoration:none;
 }
 
 .SNS{
+	 z-index: 100;
   width:100%;
 }
 
 .SNS li{
+	 z-index: 100;
   float: left;
   transform: translateX(-40px);
   margin-right: 10px;
 }
 
 .SNS a{
+	 z-index: 100;
   text-decoration: none;
   padding: 10px 0px;
   color:white;
@@ -454,18 +467,21 @@ text-decoration:none;
 }
 
 .person{
+	 z-index: 100;
     width:100%;
     display: flex;
   justify-content:end;
 }
 
 .person li{
+	 z-index: 100;
 font-size: 11px;
   margin: 10px;
   color: white;
 }
 
 .person a{
+	 z-index: 100;
   text-decoration: none;
 font-size: 11px;
   color: white;
