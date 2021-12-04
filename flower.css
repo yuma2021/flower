@@ -215,7 +215,7 @@ transform: translate(0, 0);
 }
 
 .GALLERY{
-  padding-bottom: 10vh;
+  padding-bottom: 60vh;
 }
 
 .GALLERY h3{
@@ -241,34 +241,36 @@ margin-top: 40px;
 flex-direction: row-reverse;
 }
 
-.ACCESS{
-  padding: 200px 0px 0px 0px;
+.ACCESS{ 
+	z-index: 100;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:100%;
-  height: 80vw;
+   width:100%;
+	height: 100vw;
+	background: none;
 }
 
-
 .ACCESS:before{
- content:"";
-  position:fixed;
-  top:10%;
+	display: block;
+		position:fixed;
+  top:0;
   left:0;
-  z-index:-1;
-  width:100%;
-  height:100vw;
-    overflow:hidden;
-  background-image: url(image/bg.jpg);
+ content:"";
+	 width:100%;
+	height: 100vw;
+	z-index: -1;
+	-webkit-transform: translate3d(0,0,-1px);
+ 	transform: translate3d(0,0,-1px);
+ background-image: url(image/bg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-}
-
+}	
 
 .ACCESS h3{
+    z-index: 100;
   text-decoration: underline;
   margin-top: 20px;
     font-size: 45px;
@@ -279,6 +281,7 @@ flex-direction: row-reverse;
 }
 
 .ACCESS h4{
+   z-index: 100;
   margin-top: 50px;
   font-size: 30px;
   font-weight: normal;
@@ -288,6 +291,7 @@ flex-direction: row-reverse;
 }
 
 .ACCESS p{
+    z-index: 100;
   color:white;
   line-height: 1.5em;
     font-size: 13px;
@@ -295,27 +299,33 @@ flex-direction: row-reverse;
 }
 
 #tel{
+    z-index: 100;
   text-decoration:none;
   color:white;
 }
 
 .home span{
+    z-index: 100;
   font-size: 16px;
 }
 
 .number{
+    z-index: 100;
   margin-top: 10px;
 }
 
 .google-nav{
+    z-index: 100;
   padding: 20px 40px;
   width:max-content;
   border: solid 1px white;
   margin:auto;
+  margin-bottom: 100px;
   margin-top: 0px;
 }
 
 .google-nav a{
+    z-index: 100;
   text-decoration: none;
   color: white;
 font-size: 14px;
